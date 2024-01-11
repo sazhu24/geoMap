@@ -13,7 +13,6 @@ Parameters:
   - `colorscale`: Index of the selected colorscale (default is 0).
   - `countryCenter`: Boolean to specify whether to center the map on the selected country.
   - `showFaults`: Boolean to specify whether to show fault lines on the map.
-  - `faultColors`: List of colors for different fault danger levels.
 
 #### printOptions Method:
 *Use this method to see what options are available for customizing your geoMap object.*
@@ -52,7 +51,7 @@ gm1 = geoMap()
 gm1.map()
 ```
 
-![World Map - All Countries](https://github.com/sazhu24/SDS271-G5-Package/blob/main/plots/map1.png)
+![World Map - All Countries](https://github.com/sazhu24/geoMap/blob/main/plots/map1.png)
 
 
 ### 2: Japan
@@ -70,7 +69,7 @@ gm2 = geoMap(code = 'JPN', var = 4, countryCenter = True, colorscale = 1)
 gm2.map()
 ```
 
-![World Map - Selected Country: JAPAN](https://github.com/sazhu24/SDS271-G5-Package/blob/main/plots/map2.png)
+![World Map - Selected Country: JAPAN](https://github.com/sazhu24/geoMap/blob/main/plots/map2.png)
 
 
 ### 3: Colombia
@@ -88,7 +87,7 @@ gm3 = geoMap(code = 'COL', var = 1, countryCenter = False, colorscale = 2)
 gm3.map()
 ```
 
-![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/SDS271-G5-Package/blob/main/plots/map3.png)
+![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/geoMap/blob/main/plots/map3.png)
 
 
 ### 4: Haiti
@@ -106,7 +105,7 @@ gm4 = geoMap(code = 'HTI', var = 3, colorscale = 0)
 gm4.map()
 ```
 
-![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/SDS271-G5-Package/blob/main/plots/map4.png)
+![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/geoMap/blob/main/plots/map4.png)
 
 
 ### 5: Indonesia
@@ -124,7 +123,7 @@ gm5 = geoMap(code = 'IDN', var = 5, showFaults = True, colorscale = 1)
 gm5.map()
 ```
 
-![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/SDS271-G5-Package/blob/main/plots/map5.png)
+![World Map - Selected Country: COLUMBIA](https://github.com/sazhu24/geoMap/blob/main/plots/map5.png)
 
 
 
