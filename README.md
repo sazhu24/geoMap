@@ -1,23 +1,8 @@
-## SDS 271 Group 5 Final Project: Class `geoMap`
-By Sara Zhu, Kiera Murray, and Patrizia Picado
+## `geoMap` python package
 
-The `geoMap` class serves as a tool that can help users understand the different earthquake hazards and risk factors that are distributed across the world. Users can view all fault lines and locate the geographic zones in which individuals have a higher risk of being impacted by a potential earthquake. This class can be used to study the relationship between the high-risk zones and the communities with higher socioeconomic needs. Its creation stems from a recognition of the need for a user-friendly, all-encompassing tool that works with a wide array of geographical data visualization requirements. Whether for academic research, business analytics, or educational purposes, `geoMap` provides a platform to enhance the understanding of complex spatial relationships and promote informed decision-making processes. It is important to highlight that in order for this class to work succesfully, users must install the following packages: pandas, plotly.express, plotly.graph_objects, geopandas, matplotlib, and IPython.display. 
+The `geoMap` class allows users to visualize the seismic risk profiles of countries and territories around the world. Whether for academic research, business analytics, or educational purposes, `geoMap` provides a platform to enhance the understanding of complex spatial relationships and promote informed decision-making processes. 
 
-
-### Attributes:
-
-**world_fts:** A Pandas DataFrame containing latitude and longitude points for fault lines.
-
-**all_countries:** A Pandas DataFrame containing geometry and descriptive data for all countries.
-
-**colorscale_options:** A list of colorscale options for choropleth maps.
-
-**variable_options:** A list of variable options that can be visualized on the map.
-
-**var_dict:** A dictionary that maps variable names to their definitions.
-
-
-### User Methods:
+### Functions:
 
 #### \_\_init\_\_ Method:
 *Use this method to create a geoMap object for mapping.*
@@ -47,24 +32,6 @@ Parameters:
 
 Returns:
  - Choropleth map using Plotly Express.
-
-### Internal Methods:
-
-#### rgb2hex Method:
-
-Parameters:
-  - `value`: Value to be converted to a hexadecimal color.
-
-Returns:
-  - Hexadecimal color code.
-
-#### settings Method:
-
-Parameters:
- - None
-
-Returns:
- - Zoom level, center latitude, center longitude, and country name based on the selected country code.
 
 
 ## Example Maps
